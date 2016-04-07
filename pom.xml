@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.david</groupId>
-  <artifactId>FolderBuilder</artifactId>
+  <artifactId>mkdirs</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>FolderBuilder</name>
+  <name>mkdirs</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -30,7 +30,7 @@
       <configuration>
         <archive>
           <manifest>
-            <mainClass>fully.qualified.MainClass</mainClass>
+            <mainClass>com.david.FolderBuilder.App</mainClass>
           </manifest>
         </archive>
         <descriptorRefs>
