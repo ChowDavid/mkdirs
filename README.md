@@ -1,8 +1,16 @@
 #How to use
 
+##Build
+```linux
+mvn clean package
+cd target
+rename the jar file to mkdirs.jar
+mv mkdirs-0.0.1-SNAPSHOT.jar mkdirs.jar
+```
+##Exec
 single folder creation
 
-```
+```linux
 	java -jar mkdirs.jar /repos/Webappaix31/usr/WebSphere6/AppServer/lib
 ```
 multi folder creation with admin access
